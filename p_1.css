@@ -1,7 +1,9 @@
 .website{
-    width: 1440px;
-    height: 4368px;
-    
+    width: 1440px;    
+}
+
+body{
+    font-family: "Inter", sans-serif;
 }
 
 header{
@@ -28,13 +30,13 @@ header{
     margin-left: 166px;
 }
 
-.li1{
+.ul1 li a{
     font-size: 19px;
-    font-family: "Inter", sans-serif;
     text-decoration: none;
     color: #18191F;
-    
 }
+
+
 
 .ul2{
     display: flex;
@@ -48,7 +50,6 @@ header{
 }
 
 .li2{
-    font-family: "Inter", sans-serif;
     text-decoration: none;
     color: #4CAF4F;
     font-size: 14px;
@@ -57,7 +58,6 @@ header{
 }
 
 .botton{
-    font-family: "Inter", sans-serif;
     text-decoration: none;
     color: #ffffff;
     font-size: 14px;
@@ -102,16 +102,6 @@ header{
     margin-top: 0px;
 }
 
-.container1_1_1_2{
-    width: 128px;
-    height: 52px;
-    margin-top: 32px;
-    background-color: #4CAF4F;
-    border-radius: 4px;
-    text-align: center;
-
-}
-
 .text1{
     margin-top: 0px;
     color: black;
@@ -129,14 +119,21 @@ header{
     font-size: 16px;
     font-family: "Inter", sans-serif;
     text-align: left;
+    margin-bottom: 32px;
+
 }
 
-.botton2{
+.button_register{
     margin-top: 0px;
     text-decoration: none;
     color: #ffffff;
     font-size: 16px;
+    display: inline-block;
     font-family: "Inter", sans-serif;
+    padding: 20px 40px;
+    background-color: #4CAF4F;
+    border-radius: 4px;
+    text-align: center;
 }
 
 .worker{
@@ -235,6 +232,7 @@ header{
 .li1_3{
     width:299px;
     height: 260px;
+    text-align: center;
     border-radius: 8px;
     background-color: white;
     box-shadow: 0px 2px 4px 0px #ABBED133;
@@ -262,21 +260,16 @@ header{
 }
 
 .container2{
+    margin-top: 40px;
+    display: flex;
     width: 1440px;
-    height: 2242.4px;
+    justify-content: space-between;
     background-color: rgb(255, 255, 255);
 }
 
-.container2_1{
-    width: 1440px;
-    height: 433px;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-}
 
 .container2_1_1{
     width: 661px;
-    height: 268px;
     margin-left: 32px;
     margin-top: 82.5px;
 }
@@ -304,6 +297,7 @@ header{
 .container2_2{
     width: 1440px;
     height: 288px;
+    margin-top: 48px;
     background-color:#F5F7FA;
     display: flex;
     justify-content: space-evenly;
@@ -633,11 +627,13 @@ footer{
     font-family: "Inter", sans-serif;
     font-size: 16px;
     text-indent: 10px;
-    position: absolute;
 }
-
+.input_container{
+    display: inline-block;
+    position: relative;
+}
 .last_img{
     margin-top: 11px;
     position: absolute;
-    margin-left: 226px;;
+    right: 15px;
 }
